@@ -33,6 +33,7 @@ myApp.config(function($stateProvider) {
 
 // Content controller: define $scope.url as an image
 .controller('WorkController', function($scope, $http){
+	// parses the json file and scopes the array
 	$http.get("projects.json").success(function(response){
 		$scope.projects = response;
 		console.log($scope.projects);
