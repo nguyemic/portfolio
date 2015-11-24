@@ -1,5 +1,5 @@
 # portfolio
-What is the URL of this project on your student web-server?
+What is the URL of this project on your student web-server? http://students.washington.edu/nguyemic/info343/portfolio/portfolio.html
 
 Did you receive help from any other sources (classmates, etc.)? If so, please list who.
 
