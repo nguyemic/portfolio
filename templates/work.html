@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<div id="projects" ng-repeat="project in projects" class="col-sm-6">
+		<div class ="thumbnails">
+			<a href = "{{project.link}}"><img src="{{project.image}}" class="img-circle" alt="Cinque Terre" width="300" height="300"style="padding:5px;height:350px;width:350px;display:block;"></img></a>
+			<p id = 'information'>{{project.projects}}</p>
+			<p id= 'information'>{{project.description}}</p>
+		</div>
+	</div>
